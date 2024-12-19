@@ -1,0 +1,219 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../image/background.jpg);
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+
+#section-1 {
+    background-color: wheat;
+    
+}
+
+#section-2 {
+color: black
+}
+
+.pos-tl {
+    position: absolute;
+    bottom: 70vh;
+    left: -180px;
+    
+}
+
+.pos-tr {
+    position: absolute;
+    right: -180px;
+    bottom: 70VH;
+}
+
+#kotak-musik{
+    display: none;
+}
+
+
+
+
+
+#tombol-musik{
+    
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: silver;
+    border-radius: 100%;
+    padding:50px;
+}
+
+#tombol-musik img{
+
+    width:18vh;
+
+}
+ 
+
+
+
+#cover {
+    background-size: cover;
+    text-align: center;
+    padding: 50px;
+    
+}
+
+#quotes {
+    background-color: #e8f4f8;
+    text-align: center;
+    
+}
+
+#tanggal-lokasi, #gallery, #tamu-khusus, #story, #kirim-hadiah, #pesan-untuk-pengantin, #ucapan-terimakasih {
+    background-color: #D9DDDC;
+}
+
+#button {
+    background-color: #34db58;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+}
+
+button:hover {
+    background-color: #34db58;
+}
+
+h1, h2, p {
+    margin: 10px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+}
+
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; 
+    flex-direction: column;
+    background-color:#D9DDDC ;
+} 
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin-bottom: 20px; 
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+}
+
+input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 16px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+input[type="text"]::placeholder {
+    color: #aaa;
+}
+
+#profil {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.profil-content {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.pengantin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.profil-foto {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+.profil-detail {
+    margin-top: 10px;
+}
+
+.profil-detail p {
+    margin: 10px 0;
+}
+
+.profil-detail a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.profil-detail a:hover {
+    text-decoration: underline;
+}
+
+
+
+.rsvp-button {
+    width: 100%;
+    background-color: #34db58; 
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
